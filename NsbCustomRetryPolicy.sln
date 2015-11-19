@@ -1,0 +1,82 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Simple", "Simple", "{54DA4302-774F-48E1-8868-DF4D9BC856EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.Simple.Server", "Simple\NsbCustomRetryPolicy.Simple.Server\NsbCustomRetryPolicy.Simple.Server.csproj", "{BA17F825-B4FC-4BA9-955A-652195967852}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Messages", "Messages", "{DCB0119F-9954-43CB-97F1-794A68C07E1D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.Messages", "Messages\NsbCustomRetryPolicy.Messages\NsbCustomRetryPolicy.Messages.csproj", "{A93A8695-5872-4035-8A5F-6F78422BE43C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Exceptions", "Exceptions", "{6CE7F4BC-21D4-48E6-8659-D8A2ACB15946}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.Exceptions", "Exceptions\NsbCustomRetryPolicy.Exceptions\NsbCustomRetryPolicy.Exceptions.csproj", "{C807E25E-353D-45B5-A7EE-225288724053}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.Simple.Client", "Simple\NsbCustomRetryPolicy.Simple.Client\NsbCustomRetryPolicy.Simple.Client.csproj", "{AA37133C-47E3-44BD-BB56-CFD5672506CF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RoutingSlip", "RoutingSlip", "{6FC46940-4347-4C92-B699-65F074757CF2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.RoutingSlip.Step1", "RoutingSlip\NsbCustomRetryPolicy.RoutingSlip.Step1\NsbCustomRetryPolicy.RoutingSlip.Step1.csproj", "{6AF0785D-2AF8-43A5-8F75-6FD719B5858F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.RoutingSlip.Client", "RoutingSlip\NsbCustomRetryPolicy.RoutingSlip.Client\NsbCustomRetryPolicy.RoutingSlip.Client.csproj", "{8040406F-41CD-47CA-9DA6-E3D4C942ABB0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.RoutingSlip.Step2", "RoutingSlip\NsbCustomRetryPolicy.RoutingSlip.Step2\NsbCustomRetryPolicy.RoutingSlip.Step2.csproj", "{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NsbCustomRetryPolicy.RoutingSlip.Step3", "RoutingSlip\NsbCustomRetryPolicy.RoutingSlip.Step3\NsbCustomRetryPolicy.RoutingSlip.Step3.csproj", "{3E0903B0-030E-42FF-9B09-65D2A432D43A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA17F825-B4FC-4BA9-955A-652195967852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA17F825-B4FC-4BA9-955A-652195967852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA17F825-B4FC-4BA9-955A-652195967852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA17F825-B4FC-4BA9-955A-652195967852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A93A8695-5872-4035-8A5F-6F78422BE43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A93A8695-5872-4035-8A5F-6F78422BE43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A93A8695-5872-4035-8A5F-6F78422BE43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A93A8695-5872-4035-8A5F-6F78422BE43C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C807E25E-353D-45B5-A7EE-225288724053}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C807E25E-353D-45B5-A7EE-225288724053}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C807E25E-353D-45B5-A7EE-225288724053}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C807E25E-353D-45B5-A7EE-225288724053}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA37133C-47E3-44BD-BB56-CFD5672506CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA37133C-47E3-44BD-BB56-CFD5672506CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA37133C-47E3-44BD-BB56-CFD5672506CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA37133C-47E3-44BD-BB56-CFD5672506CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AF0785D-2AF8-43A5-8F75-6FD719B5858F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AF0785D-2AF8-43A5-8F75-6FD719B5858F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AF0785D-2AF8-43A5-8F75-6FD719B5858F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AF0785D-2AF8-43A5-8F75-6FD719B5858F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8040406F-41CD-47CA-9DA6-E3D4C942ABB0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8040406F-41CD-47CA-9DA6-E3D4C942ABB0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8040406F-41CD-47CA-9DA6-E3D4C942ABB0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8040406F-41CD-47CA-9DA6-E3D4C942ABB0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E0903B0-030E-42FF-9B09-65D2A432D43A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E0903B0-030E-42FF-9B09-65D2A432D43A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E0903B0-030E-42FF-9B09-65D2A432D43A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E0903B0-030E-42FF-9B09-65D2A432D43A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BA17F825-B4FC-4BA9-955A-652195967852} = {54DA4302-774F-48E1-8868-DF4D9BC856EB}
+		{A93A8695-5872-4035-8A5F-6F78422BE43C} = {DCB0119F-9954-43CB-97F1-794A68C07E1D}
+		{C807E25E-353D-45B5-A7EE-225288724053} = {6CE7F4BC-21D4-48E6-8659-D8A2ACB15946}
+		{AA37133C-47E3-44BD-BB56-CFD5672506CF} = {54DA4302-774F-48E1-8868-DF4D9BC856EB}
+		{6AF0785D-2AF8-43A5-8F75-6FD719B5858F} = {6FC46940-4347-4C92-B699-65F074757CF2}
+		{8040406F-41CD-47CA-9DA6-E3D4C942ABB0} = {6FC46940-4347-4C92-B699-65F074757CF2}
+		{BD6AAC4D-9794-4B3D-B947-0F1FDA7B4A5E} = {6FC46940-4347-4C92-B699-65F074757CF2}
+		{3E0903B0-030E-42FF-9B09-65D2A432D43A} = {6FC46940-4347-4C92-B699-65F074757CF2}
+	EndGlobalSection
+EndGlobal
